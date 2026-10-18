@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-advancedjs-hw-04/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image search</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-ByFP6YU4.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-Dr4k8ETB.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-BFa6ab_s.css">
+  </head>
+  <body>
+    <form class="form" autocomplete="off">
+      <label>
+        <input
+          type="text"
+          name="search-text"
+          placeholder="Search images..."
+          required
+        />
+      </label>
+      <button type="submit">Search</button>
+    </form>
+
+    <ul class="gallery"></ul>
+
+    <div class="load-more-wrapper is-hidden" aria-hidden="true">
+      <button type="button" class="load-more-btn">Load more</button>
+    </div>
+
+    <div class="loader-wrapper is-hidden" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+
+  </body>
+</html>
